@@ -1,0 +1,17 @@
+[package]
+name = "systemd_manager"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+anyhow = "1.0.57"
+chrono = { version = "0.4.19", features = ["serde"] }
+dialoguer = "0.10.0"
+fern = { version = "0.6.0", features = ["colored"] }
+log = "0.4.16"
+sd-bus = "0.10.4"
+simple_logger = "1.13.0"
+structopt = "0.3.25"
+thiserror = "1.0.30"
+tokio = { version = "1.16.1", features = ["full"] }
+uuid = { version = "0.8.2", features = ["v4"] }
